@@ -37,13 +37,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-        android:text="Klicka på mig" />
-
-    <EditText
+        android:text="Fin bild!" />
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:hint="Här kan du skriva någonting snällt" />
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:text="Ful bild!" />
+
+
 
 </LinearLayout>
