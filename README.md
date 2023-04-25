@@ -7,10 +7,22 @@ Först så valdes en LinearLayout för uppgiften vilket implementerades in i act
  ...
 ```
 I layouten implementerades det sedan fyra stycken widgets. En textView, en ImageView och två Buttons.
+Nedan är en kodsnutt på hur min ImageView ser ut:
+```
+<ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:rotationX="-12"
+        android:rotationY="50"
+        tools:srcCompat="@tools:sample/avatars" />
+```
 
 LinearLayouten är vertikal och för att få de två knapparna att hamna bredvid varandra så gjordes därför en horizontell LinearLayout som child 
 för att lösa detta. Samma sak gjordes med "HELLO WORLD!" fastän det endast är en widget och därför inte gjorde någon större skillnad.
-'
+
 Den bifogade screenshotten visar hur layouten ser ut förutom ImageViewen som krånglade när appen skulle emuleras.
 
 
