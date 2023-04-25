@@ -1,9 +1,18 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+Först så valdes en LinearLayout för uppgiften vilket implementerades in i activity_main som i kodsnutten här under:
+```
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ ...
+```
+I layouten implementerades det sedan fyra stycken widgets. En textView, en ImageView och två Buttons.
 
-_Du kan ta bort all text som finns sedan tidigare_.
+LinearLayouten är vertikal och för att få de två knapparna att hamna bredvid varandra så gjordes därför en horizontell LinearLayout som child 
+för att lösa detta. Samma sak gjordes med "HELLO WORLD!" fastän det endast är en widget och därför inte gjorde någon större skillnad.
+'
+Den bifogade screenshotten visar hur layouten ser ut förutom ImageViewen som krånglade när appen skulle emuleras.
+
 
 ## Följande grundsyn gäller dugga-svar:
 
@@ -33,7 +42,7 @@ function errorCallback(error) {
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![](android.png)
+![Screenshot_20230425_130932.png](Screenshot_20230425_130932.png)
 
 Läs gärna:
 
