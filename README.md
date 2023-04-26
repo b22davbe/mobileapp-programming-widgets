@@ -7,7 +7,7 @@ Först så valdes en LinearLayout för uppgiften vilket implementerades in i act
  ...
 ```
 I layouten implementerades det sedan fyra stycken widgets. En textView, en ImageView och två Buttons.
-Nedan är en kodsnutt på hur min ImageView ser ut:
+Nedan är en kodsnutt på hur min ImageView ser ut som även har en rotation:
 ```
 <ImageView
         android:id="@+id/imageView"
@@ -23,7 +23,7 @@ Nedan är en kodsnutt på hur min ImageView ser ut:
 LinearLayouten är vertikal och för att få de två knapparna att hamna bredvid varandra så gjordes därför en horizontell LinearLayout som child 
 för att lösa detta. Samma sak gjordes med "HELLO WORLD!" fastän det endast är en widget och därför inte gjorde någon större skillnad.
 
-Den bifogade screenshotten visar hur layouten ser ut förutom ImageViewen som krånglade när appen skulle emuleras.
+Den bifogade screenshotten visar hur layouten ser ut förutom ImageViewen som som har en exempelbild som inte hänger med när appen skulle emuleras.
 
 
 ## Följande grundsyn gäller dugga-svar:
@@ -54,7 +54,7 @@ function errorCallback(error) {
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![Screenshot_20230425_130932.png](Screenshot_20230425_130932.png)
+![img.png](img.png)
 
 Läs gärna:
 
